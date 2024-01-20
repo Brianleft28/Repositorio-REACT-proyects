@@ -1,9 +1,10 @@
 /* IMPORTANDO HOOKS DE REACT PARA TRABAJAR CON ESTADOS */
 import { useState } from "react"
 /* Aquí empieza mi componente */
-export function TwitterFollowCard ({userName, children}) {
- 
-  const [isFollowing, setIsFollowing] = useState(false);
+export function TwitterFollowCard ({userName, children, initialIsFollowing}) {
+  
+
+  const [isFollowing, setIsFollowing] = useState(initialIsFollowing);
   const text = isFollowing ? 'Siguiendo' : 'Seguir'
   const buttonClassname = isFollowing 
   ? 'tw-followCard-button is-following'
@@ -27,7 +28,10 @@ return (
           </div>
         </header>
         <aside>
-          <button className={buttonClassname} onClick={handleClick}>{text}</button>
+          <button className={buttonClassname} onClick={handleClick}>
+            <span className='tw-followCard-text' >{text}</span>
+            <span className='tw-follwoCard-stopFollow'>Dejar de seguir</span>
+            </button>
         </aside>
           
     </article>
