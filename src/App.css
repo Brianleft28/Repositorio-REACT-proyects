@@ -35,4 +35,8 @@ article button {
     font-weight: bold;
     cursor: pointer;
 }
+article button:hover {
+    opacity: .8;
+}
+
 
