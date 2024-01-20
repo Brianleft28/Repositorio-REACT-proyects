@@ -1,23 +1,24 @@
+import { useState } from "react";
+import "./App.css";
+import { TwitterFollowCard } from "./TwitterFollowCard.jsx";
 
+export function App() {
+  const  [name, setname]= useState('pedrito')
 
-import './App.css'
-export function App () {
   return (
-    <article> 
-      <header>
-        <img src="https://pbs.twimg.com/profile_images/1585078273964478468/wYbaVM83_400x400.jpg" alt="Migue Granados" />
-        <div>
-        <strong>Miguel Granados</strong>
-        <span>@miguegranados</span>
-        </div>
+    <div className="App">
+      <TwitterFollowCard userName="elonmusk">Elon Musk</TwitterFollowCard>
 
+      <TwitterFollowCard userName={name}>
+        Brian Benegas
+      </TwitterFollowCard>
 
-        <aside>
-          <button>Seguir</button>
-        </aside>
+      <TwitterFollowCard userName="midudev">
+        Miguel Ángel Durán
+      </TwitterFollowCard>
+      <button onClick={() => setname('Brianleft28')}>Cambio Nombre</button>
+    </div>
 
-      </header>
-    </article>
-    
-    )
+  );
 }
+
