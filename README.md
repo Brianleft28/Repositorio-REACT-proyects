@@ -8,9 +8,12 @@ ___
 
 ## Listado de proyectos
 
-## Twitter card:
+## Twitter card: 
 
-Una muestra simple de como funcionan los componentes y estados, simulando un componente de Twitter
+
+
+Una muestra simple de como funcionan los componentes y estados, simulando un componente de Twitter.
+Para visualizar como quedo el sitio,  [ingresa desde acá.](https://brianleft28.github.io/twittercard/)
 
 ![Twitter-Card](./assets/twitter-card.png)
   
@@ -106,6 +109,8 @@ return (
 }
 ```
 * [x] Twitter Follow Card. 
+
+---  
 
 ## Videojuego:
 En proceso...
