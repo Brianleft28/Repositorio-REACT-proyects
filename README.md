@@ -106,7 +106,7 @@ return (
     )
 }
 ```
-*[X] Twitter Follow Card. 
+* [x] Twitter Follow Card. 
 
 
 
