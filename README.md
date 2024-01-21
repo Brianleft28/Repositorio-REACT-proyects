@@ -1,11 +1,10 @@
 <!-- HEADINGS -->
-
+![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![REACT](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 # REPOSITORIO DE  PROYECTOS REACT 
 
 Repositorio dedicado a almacenar proyectos creados con [REACT](https://react.dev/) y [VITE](https://vitejs.dev/)
+___
 
-![React Logo](./assets/react.png 'react-logo') ![Vite Logo](./assets/vite.png)
- ___
 
 ## Listado de proyectos
 
@@ -107,6 +106,13 @@ return (
 }
 ```
 * [x] Twitter Follow Card. 
+
+## Videojuego:
+En proceso...
+* [ ] Videojuego
+
+
+
 
 
 
