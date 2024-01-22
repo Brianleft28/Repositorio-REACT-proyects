@@ -2,7 +2,7 @@ import "./App.css";
 import { useState } from 'react'
 
 const TURNS = { // Turnos
-  X: 'x', // true
+  X: 'x', // truee
   O: 'o'  // false
 }
 
@@ -32,7 +32,7 @@ function App() {
     const newBoard = [...board] 
     newBoard[index] = turn // x u o
     setBoard(newBoard)
-    
+
 
     const newTurn = turn === TURNS.X ?  TURNS.O : TURNS.X
     setTurn(newTurn)
