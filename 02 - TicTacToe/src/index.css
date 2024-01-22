@@ -23,6 +23,23 @@ body {
   min-height: 100vh;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.board h1 {
+  color: #eee;
+  margin-bottom: 16px;
+}
+
+.board .game {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
 .square {
   width: 100px;
   height: 100px;
@@ -32,4 +49,25 @@ body {
   place-items: center;
   cursor: pointer;
   font-size: 48px;
+}
+
+.square.is-selected {
+  color: #fff;
+  background: #09f;
+}
+
+.turn {
+  display: flex;
+  justify-content: center;
+  margin: 15px auto;
+  width: fit-content;
+  position: relative;
+  border-radius: 15px;
+}
+.turn .square,
+.winner .square {
+  width: 70px;
+  height: 70px;
+  pointer-events: none;
+  border-color: transparent;
 }
