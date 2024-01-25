@@ -72,3 +72,54 @@ body {
   pointer-events: none;
   border-color: transparent;
 }
+
+.winner {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.winner .text {
+  background: #111;
+  height: 300px;
+  width: 320px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.winner .win {
+  margin: 0 auto;
+  width: fit-content;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  gap: 15px;
+}
+
+.board button {
+  padding: 12px 8px;
+  margin: 25px;
+  background: transparent;
+  border: 2px solid #eee;
+  color: #eee;
+  width: 125px;
+  border-radius: 10px;
+  transition: 0.2s;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.board button:hover {
+  background: #eee;
+  color: #222 ;
+}
+
+
