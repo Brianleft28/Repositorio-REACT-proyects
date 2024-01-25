@@ -1,7 +1,7 @@
 export const TURNS = {
   // Turnos
-  X: "x", // true
-  O: "o", // false
+  X: "Ｘ", // true
+  O: "●", // false
 };
 
 export const WINNER_COMBOS = [
